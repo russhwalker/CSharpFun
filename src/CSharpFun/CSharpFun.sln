@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFun.Base", "CSharpFun.Base\CSharpFun.Base.csproj", "{699DE19E-EB7D-488B-A3F0-D23C9AD942A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFun.Test", "CSharpFun.Test\CSharpFun.Test.csproj", "{BB2C185C-7092-478A-8990-3F9F445C85AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699DE19E-EB7D-488B-A3F0-D23C9AD942A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699DE19E-EB7D-488B-A3F0-D23C9AD942A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699DE19E-EB7D-488B-A3F0-D23C9AD942A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699DE19E-EB7D-488B-A3F0-D23C9AD942A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2C185C-7092-478A-8990-3F9F445C85AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2C185C-7092-478A-8990-3F9F445C85AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2C185C-7092-478A-8990-3F9F445C85AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2C185C-7092-478A-8990-3F9F445C85AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
