@@ -52,8 +52,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AttributeTests.cs" />
+    <Compile Include="NewFolder1\Palindrome.cs" />
     <Compile Include="ClassEqualityTests.cs" />
     <Compile Include="AsyncTests.cs" />
+    <Compile Include="Recursion.cs" />
     <Compile Include="TypeTests.cs" />
     <Compile Include="ReflectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +72,7 @@
       <Name>CSharpFun.Base</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

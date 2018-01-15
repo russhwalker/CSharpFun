@@ -53,7 +53,7 @@ namespace CSharpFun.Test
 
             //Longest task was 2 seconds, all of these should complete in right over 2 seconds
             Console.WriteLine(stopWatch.ElapsedMilliseconds);
-            Assert.IsTrue(stopWatch.ElapsedMilliseconds >= 2000 && stopWatch.ElapsedMilliseconds < 2100);
+            Assert.IsTrue(stopWatch.ElapsedMilliseconds >= 2000 && stopWatch.ElapsedMilliseconds < 2200);
         }
 
         [TestMethod]
@@ -75,7 +75,7 @@ namespace CSharpFun.Test
 
             //Longest task was 2 seconds, all of these should complete in right over 2 seconds
             Console.WriteLine(stopWatch.ElapsedMilliseconds);
-            Assert.IsTrue(stopWatch.ElapsedMilliseconds >= 2000 && stopWatch.ElapsedMilliseconds < 2100);
+            Assert.IsTrue(stopWatch.ElapsedMilliseconds >= 2000 && stopWatch.ElapsedMilliseconds < 2200);
         }
 
         //[TestMethod]

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MarkerAttribute.cs" />
     <Compile Include="Store\CustomerAddress.cs" />
     <Compile Include="Store\Order.cs" />
     <Compile Include="Store\Customer.cs" />
