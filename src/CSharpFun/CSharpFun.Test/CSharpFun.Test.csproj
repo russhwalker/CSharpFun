@@ -52,8 +52,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AttributeTests.cs" />
-    <Compile Include="NewFolder1\Palindrome.cs" />
+    <Compile Include="FibonacciTests.cs" />
+    <Compile Include="LinkedListTests.cs" />
+    <Compile Include="PalindromeTests.cs" />
     <Compile Include="ClassEqualityTests.cs" />
     <Compile Include="AsyncTests.cs" />
     <Compile Include="Recursion.cs" />

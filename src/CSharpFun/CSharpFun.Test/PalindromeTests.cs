@@ -1,17 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CSharpFun.Test
+namespace CSharpFun.Test.Other
 {
     [TestClass]
-    public class Palindrome
+    public class PalindromeTests
     {
-
-
 
         private IEnumerable<string> ParsePalidromes(string input)
         {
